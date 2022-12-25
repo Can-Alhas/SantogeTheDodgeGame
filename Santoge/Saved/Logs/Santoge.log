@@ -1069,3 +1069,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.12.25-04.16.13:656][689]LogLiveCoding: Display: Successfully initialized, removing startup thread
 [2022.12.25-04.16.17:672][ 46]LogLiveCoding: Display: Console will be hidden but remain running in the background. Restart to disable completely.
 [2022.12.25-04.16.31:180][624]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.12.25-04.18.03:757][ 34]LogUObjectGlobals: Warning: Failed to find object 'Object None.ActorDetails'
+[2022.12.25-04.18.09:349][667]LogLinker: Warning: Asset '../../../../../Users/hca_a/Documents/GitHub/SantogeTheDodgeGame/Santoge/Content/TopDownCPP/TopDownOverview.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2022.12.25-04.18.10:886][848]LogSlate: Window 'Tutorials' being destroyed
+[2022.12.25-04.18.10:892][848]LogSlate: Window 'Tutorials' being destroyed
