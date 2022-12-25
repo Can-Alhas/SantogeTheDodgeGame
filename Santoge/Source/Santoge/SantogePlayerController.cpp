@@ -7,11 +7,34 @@
 #include "SantogeCharacter.h"
 #include "Engine/World.h"
 
+
+#include "Components/BoxComponent.h"
+
+#include "Gift.h"
+
 ASantogePlayerController::ASantogePlayerController()
 {
 	bShowMouseCursor = true;
 	DefaultMouseCursor = EMouseCursor::Crosshairs;
+
+	
 }
+
+#pragma region deleted function and variables from gift.h
+//void ASantogePlayerController::OnOverlap(UPrimitiveComponent* OverlappedComponent, 
+//	AActor* OtherActor, UPrimitiveComponent* OtherComponent,
+//	int32 OtherBodyIndex, bool bFromSweep,
+//	const FHitResult& SweepResult){
+//
+//	if (OtherActor->IsA(AGift::StaticClass())) {
+//		OtherActor->Destroy();
+//	}
+//
+//
+//}
+#pragma endregion 
+
+
 
 void ASantogePlayerController::PlayerTick(float DeltaTime)
 {
@@ -110,3 +133,4 @@ void ASantogePlayerController::OnSetDestinationReleased()
 	// clear flag to indicate we should stop updating the destination
 	bMoveToMouseCursor = false;
 }
+

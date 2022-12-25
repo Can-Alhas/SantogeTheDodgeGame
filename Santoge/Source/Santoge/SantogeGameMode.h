@@ -13,6 +13,16 @@ class ASantogeGameMode : public AGameModeBase
 
 public:
 	ASantogeGameMode();
+
+	UPROPERTY(EditAnywhere, Category = "Spawn")
+		TSubclassOf<class AGift> GiftBlueprint;
+		
+
+	float SpawnTimer;
+
+	virtual void Tick(float DeltaTime) override;
+
+	FVector GenerateRandomLocation();
 };
 
 

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Santoge.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F136234E-A820-4521-9392-07AE8ABDAF7B}</UniqueIdentifier>
+      <UniqueIdentifier>{067AB32A-ABEC-4D7B-8BB8-B61C253F4E04}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Santoge.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{63967BD9-E4A9-4578-A8D3-D7D5967AA499}</UniqueIdentifier>
+      <UniqueIdentifier>{F181DC9A-8A62-4557-8C0D-231305444B20}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Santoge">
-      <UniqueIdentifier>{13AC6A5C-04F4-4ED7-B21F-207EF59B31C0}</UniqueIdentifier>
+      <UniqueIdentifier>{DF185C7D-FD2E-45FA-907E-FB48D0A872CA}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Santoge\Gift.cpp">
+      <Filter>Source\Santoge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Santoge\Gift.h">
+      <Filter>Source\Santoge</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Santoge\Santoge.Build.cs">
       <Filter>Source\Santoge</Filter>
     </None>

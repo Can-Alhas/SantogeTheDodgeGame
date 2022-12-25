@@ -1,0 +1,7 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hca_a\Documents\GitHub\SantogeTheDodgeGame).
+  Building SantogeEditor...
+  Using Visual Studio 2022 14.33.31629 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 1 action with 12 processes...
+    [1/1] SantogeEditor.target
+  Total time in Parallel executor: 0,25 seconds
+  Total execution time: 1,01 seconds

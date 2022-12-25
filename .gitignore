@@ -72,3 +72,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Santoge/Saved/Config/Windows/SourceControlSettings.ini
+*.ini
+*.ini
+Santoge/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Santoge/Saved/Logs/Santoge.log

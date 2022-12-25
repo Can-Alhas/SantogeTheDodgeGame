@@ -14,6 +14,22 @@ class ASantogePlayerController : public APlayerController
 public:
 	ASantogePlayerController();
 
+#pragma region deleted func and variables
+	//////////////
+	//UPROPERTY(EditAnywhere)
+	//	float Speed = 10;
+
+	///////////////////////////
+	//UPROPERTY(EditAnywhere)
+	//	UShapeComponent* CollisionBox;
+
+	/*UFUNCTION()
+		void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep,
+			const FHitResult& SweepResult);*/
+#pragma endregion
+
+
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
