@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Santoge.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F136234E-A820-4521-9392-07AE8ABDAF7B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Santoge.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SantogeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{63967BD9-E4A9-4578-A8D3-D7D5967AA499}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Santoge">
+      <UniqueIdentifier>{13AC6A5C-04F4-4ED7-B21F-207EF59B31C0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Santoge\Santoge.Build.cs">
+      <Filter>Source\Santoge</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Santoge\Santoge.cpp">
+      <Filter>Source\Santoge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Santoge\Santoge.h">
+      <Filter>Source\Santoge</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Santoge\SantogeCharacter.cpp">
+      <Filter>Source\Santoge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Santoge\SantogeCharacter.h">
+      <Filter>Source\Santoge</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Santoge\SantogeGameMode.cpp">
+      <Filter>Source\Santoge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Santoge\SantogeGameMode.h">
+      <Filter>Source\Santoge</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Santoge\SantogePlayerController.cpp">
+      <Filter>Source\Santoge</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Santoge\SantogePlayerController.h">
+      <Filter>Source\Santoge</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Santoge",
+			"Path": "C:\\Users\\hca_a\\Documents\\GitHub\\SantogeTheDodgeGame\\Santoge\\Source\\Santoge.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SantogeEditor",
+			"Path": "C:\\Users\\hca_a\\Documents\\GitHub\\SantogeTheDodgeGame\\Santoge\\Source\\SantogeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
