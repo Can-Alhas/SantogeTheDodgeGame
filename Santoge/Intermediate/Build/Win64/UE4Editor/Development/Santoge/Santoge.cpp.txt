@@ -1,2 +1,0 @@
-C:\Users\hca_a\Documents\GitHub\SantogeTheDodgeGame\Santoge\Intermediate\Build\Win64\UE4Editor\Development\Santoge\Definitions.Santoge.h
-C:\Users\hca_a\Documents\GitHub\SantogeTheDodgeGame\Santoge\Source\Santoge\Santoge.h
